@@ -1,0 +1,19 @@
+{
+  "wrestlers": [
+    {
+      "id": "1",
+      "name": "Stone Cold Steve Austin",
+      "poster": "https://www.thesun.co.uk/wp-content/uploads/2022/02/Steve-Austin.jpg"
+    },
+    {
+      "id": "1",
+      "name": "The Rock",
+      "poster": "https://b.fssta.com/uploads/application/wwe/headshots/dwayne-the-rock-johnson.png"
+    },
+    {
+      "id": "1",
+      "name": "The UnderTaker",
+      "poster": "https://wp.clutchpoints.com/wp-content/uploads/2022/02/wwe-news-undertaker-gets-hall-of-fame-call-right-ahead-of-wrestlemania-38.jpg"
+    }
+  ]
+}

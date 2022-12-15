@@ -1,17 +1,17 @@
-document.addEventListener("DOMContentLoaded", ()=> {
-})
-
-function clickAlert() {
-    return "I was clicked"
-}
-
-function voteForFavorite() {
-const votes = document.querySelector(form);
-form.addEventListener('submit', (clickAlert) => {
-    e.preventDefault ();
+document.addEventListener("submit", e => {
+    fetch('https://github.com/Gianna18/Project-wrestling-API/blob/master/db.json') (index+1)
+    if(addVotes)return;
+    const voteFor = document.querySelectorAll(form)
+    btn.addEventListeners('submit', )
+    'voteFor';parseInt(form)+1;
 
 })
-}
+
+
+ //const submit= document.querySelectorAll(form)
+ //submit.addEventListener('submit',function(event){
+    //event.preventDefault()
+ //})
 
 /*
 function barDetails(character) {
@@ -32,3 +32,15 @@ function barDetails(character) {
             form.reset();
         });
         */
+
+        const btn = document.getElementById('buy-ticket')
+        btn.addEventListener('click', function(event){
+            let remainingTickets = document.querySelector('#ticket-number').textContent
+            event.preventDefault()
+            if(remainingTickets > 0){
+                document.querySelector('#ticket-number').textContent  = remainingTickets-1
+            }
+            else if(parseInt(remTickets, 10)===0){
+                btn.textContent = 'Sold Out'
+            }
+    })
