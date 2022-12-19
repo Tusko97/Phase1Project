@@ -1,3 +1,14 @@
+fetch('https://github.com/Gianna18/Project-wrestling-API/blob/master/db.json', {    
+method: 'POST',
+headers: {
+    'Content-Type': 'application/json'
+},
+data:JSON.stringify(post)
+})
+.then(response => response.json())
+.then(data => console.log(data))
+
+
 document.addEventListener("submit", e => {
     fetch('https://github.com/Gianna18/Project-wrestling-API/blob/master/db.json') (index+1)
     if(addVotes)return;
