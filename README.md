@@ -2,7 +2,8 @@
 This is the phase one project for JavaScript, CSS and HTML concepts.
 
 # Description
-The project entails a wrestling webpage detailing past wwe superstars and users will have the ability to vote for their favorite superstars from the chosen few.
+The project entails a wrestling webpage detailing past wwe superstars and users will have the ability to vote for their favorite superstars from the chosen three.
+I created a fake API on mock.io site to use the data for my fetch 
 
 # HTML
 This follows the basic HTML format having included 3 forms for submitting data.

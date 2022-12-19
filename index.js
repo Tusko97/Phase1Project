@@ -1,16 +1,19 @@
-fetch('https://github.com/Gianna18/Project-wrestling-API/blob/master/db.json', {    
-method: 'POST',
+// Use fetch to get the fake API created 
+fetch('https://mocki.io/v1/259e3b67-24d9-4b36-a3a2-16361eee6f7b', {    
+
+method: 'GET',
 headers: {
     'Content-Type': 'application/json'
 },
-data:JSON.stringify(post)
+// added stringify 
+data:JSON.stringify('GET')
 })
 .then(response => response.json())
 .then(data => console.log(data))
 
-
+// to add the votes for each wrestler, we select the document and use fetch to get the API plus an if statement for the condition.
 document.addEventListener("submit", e => {
-    fetch('https://github.com/Gianna18/Project-wrestling-API/blob/master/db.json') (index+1)
+    fetch('https://mocki.io/v1/259e3b67-24d9-4b36-a3a2-16361eee6f7b') (index+1)
     if(addVotes)return;
     const voteFor = document.querySelectorAll(form)
     btn.addEventListeners('submit', )
@@ -42,7 +45,7 @@ function barDetails(character) {
             showAnimal(currentAnimal);
             form.reset();
         });
-        */
+        
 
         const btn = document.getElementById('buy-ticket')
         btn.addEventListener('click', function(event){
@@ -55,3 +58,4 @@ function barDetails(character) {
                 btn.textContent = 'Sold Out'
             }
     })
+    */
