@@ -1,3 +1,8 @@
+const init = () => {
+    const inputForm = document.querySelector('form')
+  
+    inputForm.addEventListener('submit', (event) => {
+      event.preventDefault();
 // Use fetch to get the fake API created 
 fetch('https://mocki.io/v1/259e3b67-24d9-4b36-a3a2-16361eee6f7b', {    
 
@@ -19,8 +24,9 @@ document.addEventListener("submit", e => {
     btn.addEventListeners('submit', )
     'voteFor';parseInt(form)+1;
 
-})
-
+});
+});
+}
 
  //const submit= document.querySelectorAll(form)
  //submit.addEventListener('submit',function(event){
