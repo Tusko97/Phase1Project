@@ -1,3 +1,4 @@
+// initialize the fetch request.
 const init = () => {
     const inputForm = document.querySelector('form')
   
@@ -27,6 +28,11 @@ document.addEventListener("submit", e => {
 });
 });
 }
+
+const input = document.getElementById('signIn');
+input.addEventListener('click', function(){
+    alert(prompt('Kindly input username'));
+})
 
  //const submit= document.querySelectorAll(form)
  //submit.addEventListener('submit',function(event){
